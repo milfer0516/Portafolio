@@ -2,3 +2,20 @@
    width: 80%;
    height: 250px;
 }
+
+#logo img {
+   width: 170px;
+}
+.logo-3 {
+   width: 170px;
+   filter: invert(100%);
+}
+.icon i a {
+   margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+   .icon i a {
+      margin-left: 20px;
+      filter: invert(100%);
+   }
+}
